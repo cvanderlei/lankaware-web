@@ -2,10 +2,145 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Lankaware Agência de Informática</title>
+    <title>Lankaware  - Agência de Informática</title>
+    <meta name="viewport" content="width=device-width",initial-scale=1, shrink-to-fit:no>
+    <link rel = "stylesheet" href="bootstrap4/css/bootstrap.min.css">
+    <link rel = "stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel = "stylesheet" type="text/css" href = "css/lankastyle.css">
+
+    <meta name = "keywords" content = "Software Sistemas Websites" />
+    <meta name = "description" content = "Agência de Informática" />
+    <!--[if lt IE 9]>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+    <![endif]-->
   </head>
   <body>
-    <h1>LankaWare - Agência de Informática</h1>
-    <h2>Desenvolvimento de sistemas estratégicos</h2>
+
+    <header>
+      <nav class="navbar navbar-expand-md navbar-light fixed-top navbar-transparente">
+        <div class="container">
+          <a href="index.html" class="navbar-brand">
+            <img src="imagens/logo1fm.png" width=220>
+          </a>
+          <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
+            <i class="fas fa-bars text-white"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="nav-principal">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
+              <li class="nav-item"><a href="#" class="nav-link">Serviços</a></li>
+              <li class="nav-item"><a href="#" class="nav-link">Contato</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section id="home" class="d-flex">
+      <div class="container align-self-center">
+        <div class="row">
+          <div class="col-md-12 capa">
+              <h1>Sua agência de informática</h1>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="serviços">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="imagens/code.jpg" class="img-fluid">
+          </div>
+          <div class="col-md-6">
+            <h4>O que temos para lhe oferecer:</h4>
+            <h5>Nós desenvolvemos e implantamos sistemas de informações estratégicos, propondo uma parceria de negócios
+              com cada um de nossos clientes.
+            </p>Vamos muito além do atendimento aos requisitos dos usuários, em um trabalho
+              contínuo de elaboração de estratégias baseadas na tecnologia da informações, e visando o melhor
+              aproveitamento possível dos recursos economicamente acessíveis.</h5>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="deslize" class="d-flex">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8 m-auto">
+
+            <div id="carousel-controles" class="carousel slide" data-ride="carousel"> <!-- carousel - início -->
+
+              <ol class="carousel-indicators">
+                <li class="active" data-target="#carousel-controles" data-slide-to="0"></li>
+                <li data-target="#carousel-controles" data-slide-to="1"></li>
+                <li data-target="#carousel-controles" data-slide-to="2"></li>
+              </ol>
+
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="imagens/slide1_projeto.jpg" class="img-fluid" >
+                  <div class="carousel-caption">
+                    <h3>Realizamos projetos de inovação tecnológica</h3>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <img src="imagens/slide2_config.jpg" class="img-fluid" >
+                  <div class="carousel-caption">
+                    <h3>Oferecemos suporte completo a implantação e configuração de sistemas</h3>
+                  </div>
+                </div>
+
+                <div class="carousel-item">
+                  <img src="imagens/slide3_suporte.jpg" class="img-fluid">
+                  <div class="carousel-caption">
+                    <h3>Temos serviços de suporte aos usuários</h3>
+                  </div>
+                </div>
+
+              </div> <!-- inner -->
+              <!-- controles -->
+
+              <a href="#carousel-controles"class="carousel-control-prev" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+                <!--<i class="fas fa-angle-left"></i>-->
+              </a>
+              <a href="#carousel-controles"class="carousel-control-next" data-slide="next">
+                <!--<span class="carousel-control-next-icon"></span>-->
+                <i class="fas fa-angle-right fa-3x"></i>
+              </a>
+            </div> <!-- carousel -->
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <img src="imagens/logo1sm.png" width="100">
+          </div>
+          <div class="col-md-3">
+            Localização
+          </div>
+          <div class="col-md-3">
+            Contatos
+          </div>
+          <div class="col-md-3">
+            Redes sociais
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="bootstrap4/js/bootstrap.min.js"></script>
+
   </body>
 </html>
